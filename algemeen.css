@@ -1,0 +1,24 @@
+<style type=”text/css” >
+h1{
+  background-color: black;
+  color: aliceblue;
+} 
+body{background-image:url("afbeeldingen/download.jpg") ;
+text-decoration-color: white;
+
+}
+p{
+color: white;
+}
+h2{
+color: white;
+}
+li{color: white;}
+main {
+
+border: 20px black;
+padding: 10px;
+margin: 10px;
+}
+
+</style>
