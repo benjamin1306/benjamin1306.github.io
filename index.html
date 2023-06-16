@@ -92,6 +92,29 @@ van hendels aan het stuur.
 
 
 
+    <style>
+      #clock {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="clock"></div>
+    <script>
+      function updateTime() {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds();
+        var timeString = hours + ":" + minutes + ":" + seconds;
+        document.getElementById("clock").innerHTML = timeString;
+      }
+      
+      setInterval(updateTime, 1000);
+    </script>
+
 </body>  
 
 
